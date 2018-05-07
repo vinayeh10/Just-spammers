@@ -12,6 +12,8 @@ Package.json is configured with all the dependencies required to get started wit
 
 Application uses JWT(Json Web Tokens) and localstorage to implement authentication of users for each activity in the application.
 
+Application uses webpack bundling to produce final production ready minified build available to public which is served statically to users from nodejs setup.
+
 Application is built using standard MVC pattern
 ------------------------------------------------
 >Routes directory handles all the backend and http requests made for the application by user using node.js
@@ -19,6 +21,8 @@ Application is built using standard MVC pattern
 >assets directory handles the front end(view) functionality of the application developed using Angular.
 
 >models directory has schema specification written in sync with mongodb database schema to map and handle user data storage and manipulation.
+
+>public directory contains final production build.js (minified build) the only directory available for users on browser.
 
 
 
