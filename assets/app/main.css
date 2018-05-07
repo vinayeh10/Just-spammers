@@ -1,0 +1,27 @@
+.navlogo-container{
+    display: flex;
+}
+.navlogo-container>img{
+    height: 190px;
+    position: relative;
+    bottom: 77px;
+}
+
+.navbar-main-conatiner{
+    min-height: 70px;
+}
+.navbar-main-conatiner .navbar-nav{
+    margin: 10px;
+}
+
+.navbar-main-conatiner .navbar-nav>li>a{
+    color:#d9edf7!important;
+}
+
+.navbar-main-conatiner .navbar-nav>li>a:active{
+    color: black!important;
+}
+
+.navbar-nav>li>a:hover,.navbar-nav>li>a:active, .navbar-nav>li>a:focus{
+    background-color:unset!important;
+}

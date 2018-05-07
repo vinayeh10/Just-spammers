@@ -1,0 +1,32 @@
+<header class="row">
+    <nav class="col-md-8 md-offset-2 navbar navbar-main-conatiner" style="background-color:#224963!important;width:100%;">
+    
+        <a class="navbar-brand navlogo-container">
+            <img src="http://localhost:5000/images/logo.png">
+                    
+    </a>
+        <ul class="nav navbar-nav" style="width:80%">
+            <li routerLinkActive="active-nav">
+                <a [routerLink]="['/messages']">Messenger</a>
+                
+            </li>
+            <!-- <li routerLinkActive="active-nav">
+                <a [routerLink]="['/authentication']">Login/Signup</a>
+            </li> -->
+            <li style="float:right;" routerLinkActive="active-nav" *ngIf="isloggedIn()">
+                <a (click)="onLogOut()">Logout</a>
+            </li>
+            <li style="float:right;" *ngIf="isloggedIn() && userName!=''">
+            <a href="#">Welcome {{userName}}</a>
+            </li>
+            <li style="float:right;" routerLinkActive="active-nav" *ngIf="!isloggedIn()">
+                    <a [routerLink]="['/authentication/signup']">SignUp</a>     
+            </li>
+            <li style="float:right;" routerLinkActive="active-nav" *ngIf="!isloggedIn()">
+                <a [routerLink]="['/authentication/signin']">Login</a>
+            </li>
+                
+            
+        </ul>
+    </nav>
+</header>
