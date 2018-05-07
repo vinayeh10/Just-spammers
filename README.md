@@ -37,3 +37,11 @@ Mongodb connection string
 --------------------------
 Connection string is added in app.js file to connect with local database repository or hoisted repository.
 Please update connection string to connect with your database repository.
+
+Get Started
+-------------
+To run application on localhost:
+>Run dev build using : npm run build
+>To start application :  npm start
+
+To hoist production build please use command : npm run build:prod
