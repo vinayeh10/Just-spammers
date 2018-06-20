@@ -2,7 +2,7 @@
 A simple Messenger starter web application just for my friends..
 
 
-I have hoisted demo Application on Heroku https://spam-messenger.herokuapp.com/messages and database repository on MongoLAB
+I have hoisted demo Application on Heroku https://spam-messenger.herokuapp.com and database repository on MongoLAB
 
 Application is starter MEAN stack website which uses Angular 4, Mongodb and Nodejs(Express Framework).
 
